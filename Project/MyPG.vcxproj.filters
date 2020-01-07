@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\Resources\hlsl\2DTexture.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\WinMain.cpp" />
+    <ClCompile Include="..\Source\Game\GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\Render\StaticMesh.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\Input\InputEngine.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\Input\Input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\Collision\Collision.cpp">
+      <Filter>Engine\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DirectX\DirectSound.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DirectX\DirectInput.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\FPSManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\GameObject\Player.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\GameObject\PlayerBullet.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\GameObject\StageObject.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\GameObject\Enemy.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Text\TextLoader.cpp">
+      <Filter>Game\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DirectX\Direct3D.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Game\GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\ObjectInfo.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Render\StaticMesh.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Input\InputEngine.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Input\MyInputCodeList.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Input\Input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Collision\Collision.h">
+      <Filter>Engine\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DirectX\DirectSound.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DirectX\DirectInput.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Engine\FPSManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\GameObject\Player.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\GameObject\PlayerBullet.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\GameObject\StageObject.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\GameObject\Enemy.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Game\Text\TextLoader.h">
+      <Filter>Game\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DirectX\Direct3D.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{ba40912c-1b58-42bb-826e-b8cdf5585d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{db3c7fba-6316-48e8-a099-6976ca64f8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{a5ddaa3e-6b27-4b5f-8420-7bc5f5014901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Temp">
+      <UniqueIdentifier>{172ad5f2-89b2-4db3-ae24-f6cfdae44c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{fc2580ad-b7d1-4c0c-a178-3adfbc55c739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Text">
+      <UniqueIdentifier>{227697ec-7091-4be8-8f49-69c8192eb9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{a613a199-654e-4a02-af2e-f274e6a057f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collison">
+      <UniqueIdentifier>{e334c1fc-4ed6-4cad-8dd7-95791360b46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{9ec84255-f79f-40a6-998a-27f875c7cf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject">
+      <UniqueIdentifier>{0bc1e4a5-a655-4124-a72a-91c7713e185f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\TextFile\Position.txt">
+      <Filter>Game\Text</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
